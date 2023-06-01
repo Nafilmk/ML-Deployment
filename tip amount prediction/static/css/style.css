@@ -1,0 +1,30 @@
+#background{
+    background-image: url(../image/restaurant-receipt-tip-thinkstock-promo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    margin-top: 20%;
+}
+#tipamount{
+    text-align: center;
+    margin-left: 1cm;
+}
+#submit
+{
+    margin-left: 2.5cm;
+    color: rgb(240, 235, 235);
+    background-color: brown;
+}
+#result{
+    background-color: rgb(240, 205, 205);
+
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

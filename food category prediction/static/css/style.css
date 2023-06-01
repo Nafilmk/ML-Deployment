@@ -1,0 +1,51 @@
+#a {
+    background-color: #333;
+    padding: 10px;
+}
+
+#b {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.c {
+    display: inline;
+    margin-right: 10px;
+}
+
+.e {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: #555;
+}
+#e
+{
+   height: 5%; 
+   width: 5%;
+   position:relative; left:36.5cm 
+}
+.backgroundd
+{
+    background-color: rgb(28, 18, 18);
+}
+#box{
+    text-align: center;
+    color: aqua;
+}
+.inpt{
+    text-align: center;
+}
+#zz{
+    background-image: url(../images/photo-1539136788836-5699e78bfc75.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    margin-top: 5cm;
+}

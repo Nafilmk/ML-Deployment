@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>engine condition</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body style="background-image: url(../static/images/pexels-photo-190574.jpeg);background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+    <div style="text-align: center;margin-top: 5cm;color: rgb(122, 124, 209);">
+        <form action="{{ url_for('predict') }}" method="post" class="form">
+            <h2>Engine Condition Prediction</h2>
+            <input type="text" name="Engine_rpm" class="inpt" placeholder="Enter a Engine rpm"><br><br>
+            <input type="text" name="Lub_oil_pressure" class="inpt" placeholder="Enter a Lub oil pressure"><br><br>
+            <input type="text" name="Fuel_pressure" class="inpt" placeholder="Enter a Fuel pressure"><br><br>
+            <input type="text" name="Coolant_pressure" class="inpt" placeholder="Enter a Coolant pressure"><br><br>
+            <input type="text" name="lub_oil_temp" class="inpt" placeholder="Enter a lub oil temp"><br><br>
+            <input type="text" name="Coolant_temp" class="inpt" placeholder="Enter a Coolant temp"><br><br>
+            <input type="submit" value="submit" id="submit">
+        </form>
+        
+    </div>
+    <h2 style="color: aqua;text-align: center;">{{prediction_text}}</h2>
+</body>
+</html>

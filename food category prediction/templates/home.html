@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food category prediction</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body class="backgroundd">
+    <div id="d">
+        <nav id="a">
+            <ul id="b">
+                <li class="c"><a href="#" class="e">Home</a></li>
+                <li class="c"><a href="#" class="e">About</a></li>
+                <li class="c"><a href="#" class="e">Services</a></li>
+            </ul>
+       
+        </nav>
+    </div>
+    <div id="box">
+        <form action="{{ url_for('predict') }}" method="post" class="form">
+            <h2>Food Category Prediction</h2>
+            <input type="text" name="Grams" class="inpt" placeholder="Enter a Grams"><br><br>
+            <input type="text" name="Calories" class="inpt" placeholder="Enter a Calories"><br><br>
+            <input type="text" name="Protein" class="inpt" placeholder="Enter a Protein"><br><br>
+            <input type="text" name="Fat" class="inpt" placeholder="Enter a Fat"><br><br>
+            <input type="text" name="Sat_fat" class="inpt" placeholder="Enter a Sat_Fat"><br><br>
+            <input type="text" name="Fiber" class="inpt" placeholder="Enter a Fiber"><br><br>
+            <input type="text" name="Carbs" class="inpt" placeholder="Enter a Carbs"><br><br>
+            <input type="submit" value="submit" id="submit">
+        </form>
+        
+    </div>
+</body>
+</html>

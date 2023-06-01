@@ -1,0 +1,80 @@
+#a {
+    padding: 10px;
+}
+
+#b {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.c {
+    display: inline;
+    
+}
+
+.e {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: #302e31;
+}
+.background{
+    background-image: url(../images/pexels-photo-531756.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#box{
+    text-align: center;
+    margin-top: 5cm;
+}
+.inpt{
+    text-align: center;
+}
+#submit{
+    background-color: rgb(82, 78, 78);
+    color: beige;
+}
+.body1{
+    background-image: url(../images/drizzle_gif2.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head{
+    text-align: center;
+    margin-top: 6cm;
+}
+.body2{
+    background-image: url(../images/rain2.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body3{
+    background-image: url(../images/sun.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body4{
+    background-image: url(../images/snow.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body5{
+    background-image: url(../images/foggy-fog.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* .cc{
+    background-color: #fff;
+    margin-left: 12cm;
+    margin-right: 12cm;
+} */

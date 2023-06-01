@@ -1,0 +1,27 @@
+.body1{
+    background-image: url(../images/photo-1600585154340-be6161a56a0c.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body1 h2{
+    text-align: center;
+    margin-top: 20%;
+}
+#area{
+    text-align: center;
+    margin-left: 17cm;
+}
+#submit
+{
+    margin-left: 18.5cm;
+    color: rgb(117, 59, 59);
+}
+.body2 h2{
+    text-align: center;
+    margin-top: 6cm;
+}
+.body2
+{
+    background-color: rgb(207, 178, 234);
+}

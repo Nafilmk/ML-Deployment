@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather prediction</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body class="background">
+    <div id="d">
+        <nav id="a">
+            <ul id="b">
+                <li class="c"><a href="#" class="e">Home</a></li>
+                <li class="c"><a href="#" class="e">About</a></li>
+                <li class="c"><a href="#" class="e">Services</a></li>
+            </ul>
+       
+        </nav>
+    </div>
+    <div id="box">
+        <form action="{{ url_for('predict') }}" method="post" class="form">
+            <h2>Weather Prediction</h2>
+            <input type="text" name="precipitation" class="inpt" placeholder="Enter a precipitation"><br><br>
+            <input type="text" name="temp_max" class="inpt" placeholder="Enter a temp_max"><br><br>
+            <input type="text" name="temp_min" class="inpt" placeholder="Enter a temp_min"><br><br>
+            <input type="text" name="wind" class="inpt" placeholder="Enter a wind"><br><br>
+            <input type="submit" value="submit" id="submit">
+        </form>
+        
+    </div>
+</body>
+</html>

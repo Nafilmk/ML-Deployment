@@ -1,0 +1,21 @@
+.background
+{
+    background-image: url(../images/money-finance-business-success.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#experience{
+    margin-left: 35%;
+}
+#submit{
+    margin-left: 48%;
+}
